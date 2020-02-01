@@ -12,7 +12,7 @@ _version control_, _reproducible environments_, _collaboration_ (Pull Requests, 
 
 *Welcome to Underworld community projects.*
 
-You can use this repository as a GitHub template to start a new repository of your own that matches the requirements of the underworld-community. To get started, hit the "use this template" button above. 
+You can use this repository as a GitHub template to start a new repository of your own that matches the requirements of the underworld-community. To get started, hit the "Use this template" button above. See this [quick start guide]( https://github.com/underworld-community/template-project/wiki/Quick-start) for more information.
 
 Please replace this README with information about your own repository.
 ____
