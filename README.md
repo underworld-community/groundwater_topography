@@ -16,3 +16,12 @@ You can use this repository as a GitHub template to start a new repository of yo
 
 Please replace this README with information about your own repository.
 ____
+
+Metadata Table:
+
+Question | Answer
+--- | ---
+Are there testable expected result(s) | No
+Reach the expected result(s) - in serial | No 
+Reach the expected result(s) - in parallel | No
+Links to testing (CI) system | No
