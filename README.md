@@ -21,7 +21,7 @@ Metadata Table:
 
 Question | Answer
 --- | ---
-Are there testable expected result(s) | No
+Are there expected result(s) as tests | No
 Reach the expected result(s) - in serial | No 
 Reach the expected result(s) - in parallel | No
 Links to testing (CI) system | No
