@@ -1,18 +1,9 @@
-FROM underworldcode/uwgeodynamics:v2.8.5
+# Please choose your required Underworld/UWGeo version here
+FROM underworldcode/underworld2:2.8.1b
 
-# ARGS for following setup
-ARG NB_USER=jovyan
-ARG NB_UID=1000
-ARG NB_SPACE=${NB_WORK}/userspace
+# This command will copy in all the files in your repo.
+# You probably don't need to modify it. 
+COPY --chown=jovyan:users . /home/jovyan/community_model
 
-# copy files into ${NB_SPACE}, unfortunately must be root to COPY
-USER root
-RUN mkdir -p ${NB_SPACE}
-COPY . ${NB_SPACE}
-RUN chown -R ${NB_UID}:users ${NB_SPACE}
-
-# nominate ${NB_SPACE} as a volume
-VOLUME ${NB_SPACE}
-
-# switch to $NB_USER
-USER ${NB_USER}
+# Set working directory to where we've put files. 
+WORKDIR /home/jovyan/community_model
