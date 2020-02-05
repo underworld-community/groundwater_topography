@@ -47,7 +47,8 @@ Yes, test result should be obtained in both serial and parallel operation.
 
 Check-list
 ----------
-1. (Required) Have you replaced the above sections with your own content? 
-2. (Required) Have you included a Dockerfile which generates your required environment? 
-3. (Required) Have you included a working Binder badge/link so people can easily run your model? 
-4. (Optional) Have you included an appropriate image for your model? 
+- [ ] (Required) Have you replaced the above sections with your own content? 
+- [ ] (Required) Have you updated the Dockerfile to point to your required UW/UWG version? 
+- [ ] (Required) Have you included a working Binder badge/link so people can easily run your model?
+                 You probably only need to replace `template-project` with your repo name. 
+- [ ] (Optional) Have you included an appropriate image for your model? 
