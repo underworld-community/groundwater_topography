@@ -30,8 +30,8 @@ File | Purpose
 --- | ---
 `RayTay.ipynb` | A simple Rayleigh Taylor notebook. 
 `VrmsCaseA.txt`| Expected results data file. 
-'raytay.png' | Image file.
-'raytay_init.png' | Initial image file.
+`raytay.png` | Image file.
+`raytay_init.png` | Initial image file.
 
 Tests
 -----
